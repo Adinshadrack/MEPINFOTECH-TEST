@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1200x800');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Portfolio Section */
+.portfolio-item {
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.service-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box i {
+    font-size: 3rem;
+    color: #2e6ca8;
+}
+
+/* Testimonials Section */
+blockquote {
+    font-size: 1.1rem;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 5px solid #2e6ca8;
+}
+
+/* Contact Form */
+#contactForm input, #contactForm textarea {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+}
